@@ -1,0 +1,13 @@
+$main-color: #545c64;
+
+@forward 'element-plus/theme-chalk/src/common/var.scss' with (
+  $colors: (
+    'primary': (
+      'base': #fe7300,
+    ),
+  ),
+  $table: (
+    'header-bg-color': #f5f7fa,
+  )
+);
+
